@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  background-color: #FFE4E1;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  font-family: 'Cedarville Cursive', cursive;
+  color: hotpink;
+  background color: pink;
+  font-size: 250%;
+  text-align: center;
+  }
+
+  img {
+    height: 250px;
+    width: 200px;
+    margin: 7px;
+    /* padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px; */
+  }
+
+  .correct-ratio {
+    object-fit: cover;
+  }
+
+  .peony-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 1000px) {
+      .peony-images {
+        width: 90%;
+      }
+
+      img {
+        width: 200%;
+        height: 250px;
+      }
+    }
